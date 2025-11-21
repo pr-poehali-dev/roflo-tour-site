@@ -25,6 +25,9 @@ const Index = () => {
               <Link to="/registration" className="text-foreground hover:text-primary transition-colors font-medium">
                 Регистрация
               </Link>
+              <Link to="/socials" className="text-foreground hover:text-primary transition-colors font-medium">
+                Соцсети
+              </Link>
               <Link to="/other" className="text-foreground hover:text-primary transition-colors font-medium">
                 Прочее
               </Link>
