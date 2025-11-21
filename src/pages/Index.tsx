@@ -100,14 +100,8 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              {
-                icon: "Trophy",
-                title: "Крупные призы",
-                description: "Призовые фонды до 750 000 ₽ за турнир",
-                color: "primary"
-              },
               {
                 icon: "Shield",
                 title: "Честная игра",
@@ -123,7 +117,7 @@ const Index = () => {
               {
                 icon: "Users",
                 title: "Сообщество",
-                description: "5000+ активных участников",
+                description: "100+ активных участников",
                 color: "primary"
               }
             ].map((feature, index) => (
